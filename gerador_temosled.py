@@ -685,7 +685,7 @@ def build_html_basica(content, largura, altura, area_m2, diagonal_pol, tipo_pain
         mockup_page = f"""
         <div style="position: relative; width: 100%; height: 1020px;">
             <div style="position: relative; display: inline-block; width: 100%; text-align: center; padding: 0px;">
-                <img src="{LOGO_URL}" border="0" width="130px" />
+                <img src="{LOGO_URL}" border="0" style="width: 130px;" />
             </div>
             <p style="font-size: 11pt; font-weight: bold; text-align: left; margin-top: 20px;">
                 A representação abaixo demonstra como um painel de {largura_fmt}m x {altura_fmt}m se aplica no ambiente.
@@ -723,7 +723,7 @@ def build_html_basica(content, largura, altura, area_m2, diagonal_pol, tipo_pain
         <body>
             <div style="position: relative; width: 100%; height: 1020px;">
                 <div style="position: relative; display: inline-block; width: 100%; text-align: center; padding: 0px;">
-                    <img src="{LOGO_URL}" border="0" width="130px" />
+                    <img src="{LOGO_URL}" border="0" style="width: 130px;" />
                 </div>
                 <div class="header">
                     <h1>Pré Proposta Orçamentária - LED</h1>
@@ -760,7 +760,7 @@ def build_html_basica(content, largura, altura, area_m2, diagonal_pol, tipo_pain
         <body>
             <div style="position: relative; width: 100%; height: 1020px;">
                 <div style="position: relative; display: inline-block; width: 100%; text-align: center; padding: 0px;">
-                    <img src="{LOGO_URL}" border="0" width="130px" />
+                    <img src="{LOGO_URL}" border="0" style="width: 130px;" />
                 </div>
                 <div class="header">
                     <h1>Pré Proposta Orçamentária - LED</h1>
